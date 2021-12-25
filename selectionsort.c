@@ -19,8 +19,8 @@ int main()
                 min=j;
             }
             
-            temp=a[j];
-            a[j]=a[min];
+            temp=a[i];
+            a[i]=a[min];
             a[min]=temp;
         }
       
